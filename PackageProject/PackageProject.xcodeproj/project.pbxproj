@@ -16,6 +16,9 @@
 		4F1A0B6824517A9700341F81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A0B6724517A9700341F81 /* main.m */; };
 		4F1A0B7224517A9700341F81 /* PackageProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A0B7124517A9700341F81 /* PackageProjectTests.m */; };
 		4F1A0B7D24517A9700341F81 /* PackageProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A0B7C24517A9700341F81 /* PackageProjectUITests.m */; };
+		4F1A0B9824517CD700341F81 /* UINavigationController+SideslipBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A0B8E24517CD700341F81 /* UINavigationController+SideslipBack.m */; };
+		4F1A0B9C24517D0A00341F81 /* UIViewController+DefaultConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A0B9B24517D0A00341F81 /* UIViewController+DefaultConfigure.m */; };
+		4F1A0BA024517E8400341F81 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A0B9F24517E8400341F81 /* NSObject+Swizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,19 @@
 		4F1A0B7824517A9700341F81 /* PackageProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PackageProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1A0B7C24517A9700341F81 /* PackageProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PackageProjectUITests.m; sourceTree = "<group>"; };
 		4F1A0B7E24517A9700341F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1A0B8D24517CD700341F81 /* UINavigationController+SideslipBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SideslipBack.h"; sourceTree = "<group>"; };
+		4F1A0B8E24517CD700341F81 /* UINavigationController+SideslipBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SideslipBack.m"; sourceTree = "<group>"; };
+		4F1A0B9224517CD700341F81 /* UIViewController+DefaultConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DefaultConfigure.h"; sourceTree = "<group>"; };
+		4F1A0B9B24517D0A00341F81 /* UIViewController+DefaultConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DefaultConfigure.m"; sourceTree = "<group>"; };
+		4F1A0B9E24517E8400341F81 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		4F1A0B9F24517E8400341F81 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		4F1A0BA2245180DA00341F81 /* BasePro_ProjectHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasePro_ProjectHeader.h; sourceTree = "<group>"; };
+		4F1A0BA32451813D00341F81 /* BasePro_MacroHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasePro_MacroHeader.h; sourceTree = "<group>"; };
+		4F1A0BA42451816400341F81 /* BasePro_CategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasePro_CategoryHeader.h; sourceTree = "<group>"; };
+		4F1A0BA52451854B00341F81 /* BasePro_BaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasePro_BaseHeader.h; sourceTree = "<group>"; };
+		4F1A0BA72451898900341F81 /* BasePro_ThirdFrameHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePro_ThirdFrameHeader.h; sourceTree = "<group>"; };
+		4F1A0BA824518B8B00341F81 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4F1A0BA92451917100341F81 /* BasePro_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasePro_PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +100,7 @@
 		4F1A0B4924517A9400341F81 = {
 			isa = PBXGroup;
 			children = (
+				4F1A0B8A24517CD700341F81 /* JerryZBaseProject */,
 				4F1A0B5424517A9400341F81 /* PackageProject */,
 				4F1A0B7024517A9700341F81 /* PackageProjectTests */,
 				4F1A0B7B24517A9700341F81 /* PackageProjectUITests */,
@@ -115,6 +132,7 @@
 				4F1A0B6324517A9700341F81 /* LaunchScreen.storyboard */,
 				4F1A0B6624517A9700341F81 /* Info.plist */,
 				4F1A0B6724517A9700341F81 /* main.m */,
+				4F1A0BA824518B8B00341F81 /* PrefixHeader.pch */,
 			);
 			path = PackageProject;
 			sourceTree = "<group>";
@@ -135,6 +153,89 @@
 				4F1A0B7E24517A9700341F81 /* Info.plist */,
 			);
 			path = PackageProjectUITests;
+			sourceTree = "<group>";
+		};
+		4F1A0B8A24517CD700341F81 /* JerryZBaseProject */ = {
+			isa = PBXGroup;
+			children = (
+				4F1A0B8B24517CD700341F81 /* Category */,
+				4F1A0B9424517CD700341F81 /* Project */,
+				4F1A0B9524517CD700341F81 /* ThirdFrame */,
+				4F1A0B9624517CD700341F81 /* Header */,
+				4F1A0B9724517CD700341F81 /* Base */,
+			);
+			path = JerryZBaseProject;
+			sourceTree = "<group>";
+		};
+		4F1A0B8B24517CD700341F81 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4F1A0B9D24517E3500341F81 /* NSObject+Category */,
+				4F1A0B8C24517CD700341F81 /* UINavigationController+Category */,
+				4F1A0B8F24517CD700341F81 /* UIViewController+Category */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4F1A0B8C24517CD700341F81 /* UINavigationController+Category */ = {
+			isa = PBXGroup;
+			children = (
+				4F1A0B8D24517CD700341F81 /* UINavigationController+SideslipBack.h */,
+				4F1A0B8E24517CD700341F81 /* UINavigationController+SideslipBack.m */,
+			);
+			path = "UINavigationController+Category";
+			sourceTree = "<group>";
+		};
+		4F1A0B8F24517CD700341F81 /* UIViewController+Category */ = {
+			isa = PBXGroup;
+			children = (
+				4F1A0B9224517CD700341F81 /* UIViewController+DefaultConfigure.h */,
+				4F1A0B9B24517D0A00341F81 /* UIViewController+DefaultConfigure.m */,
+			);
+			path = "UIViewController+Category";
+			sourceTree = "<group>";
+		};
+		4F1A0B9424517CD700341F81 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		4F1A0B9524517CD700341F81 /* ThirdFrame */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdFrame;
+			sourceTree = "<group>";
+		};
+		4F1A0B9624517CD700341F81 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				4F1A0BA72451898900341F81 /* BasePro_ThirdFrameHeader.h */,
+				4F1A0BA2245180DA00341F81 /* BasePro_ProjectHeader.h */,
+				4F1A0BA32451813D00341F81 /* BasePro_MacroHeader.h */,
+				4F1A0BA42451816400341F81 /* BasePro_CategoryHeader.h */,
+				4F1A0BA52451854B00341F81 /* BasePro_BaseHeader.h */,
+				4F1A0BA92451917100341F81 /* BasePro_PrefixHeader.pch */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		4F1A0B9724517CD700341F81 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4F1A0B9D24517E3500341F81 /* NSObject+Category */ = {
+			isa = PBXGroup;
+			children = (
+				4F1A0B9E24517E8400341F81 /* NSObject+Swizzling.h */,
+				4F1A0B9F24517E8400341F81 /* NSObject+Swizzling.m */,
+			);
+			path = "NSObject+Category";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +370,9 @@
 			files = (
 				4F1A0B5D24517A9400341F81 /* ViewController.m in Sources */,
 				4F1A0B5724517A9400341F81 /* AppDelegate.m in Sources */,
+				4F1A0B9824517CD700341F81 /* UINavigationController+SideslipBack.m in Sources */,
+				4F1A0BA024517E8400341F81 /* NSObject+Swizzling.m in Sources */,
+				4F1A0B9C24517D0A00341F81 /* UIViewController+DefaultConfigure.m in Sources */,
 				4F1A0B6824517A9700341F81 /* main.m in Sources */,
 				4F1A0B5A24517A9400341F81 /* SceneDelegate.m in Sources */,
 			);
@@ -440,6 +544,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PackageProject/PrefixHeader.pch";
 				INFOPLIST_FILE = PackageProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +561,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PackageProject/PrefixHeader.pch";
 				INFOPLIST_FILE = PackageProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
