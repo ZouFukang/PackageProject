@@ -20,6 +20,7 @@
 		4F1A0B9824517CD700341F81 /* UINavigationController+SideslipBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A0B8E24517CD700341F81 /* UINavigationController+SideslipBack.m */; };
 		4F1A0B9C24517D0A00341F81 /* UIViewController+DefaultConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A0B9B24517D0A00341F81 /* UIViewController+DefaultConfigure.m */; };
 		4F1A0BA024517E8400341F81 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A0B9F24517E8400341F81 /* NSObject+Swizzling.m */; };
+		4F58C6BD24557E3B00AF4F31 /* Project_RefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F58C6BC24557E3B00AF4F31 /* Project_RefreshHeader.m */; };
 		4F80199924528EDF007FAF25 /* WKWebView+ShowBigImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F80199824528EDF007FAF25 /* WKWebView+ShowBigImage.m */; };
 		4F801AAE24529061007FAF25 /* ZLBigImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F80199D2452905C007FAF25 /* ZLBigImageCell.m */; };
 		4F801AAF24529061007FAF25 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 4F8019A22452905C007FAF25 /* LICENSE.md */; };
@@ -211,6 +212,8 @@
 		4F1A0BA72451898900341F81 /* BasePro_ThirdFrameHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePro_ThirdFrameHeader.h; sourceTree = "<group>"; };
 		4F1A0BA824518B8B00341F81 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4F1A0BA92451917100341F81 /* BasePro_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasePro_PrefixHeader.pch; sourceTree = "<group>"; };
+		4F58C6BB24557E3B00AF4F31 /* Project_RefreshHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Project_RefreshHeader.h; path = JerryZBaseProject/Project/Project_ProgressHUD/Project_RefreshHeader.h; sourceTree = SOURCE_ROOT; };
+		4F58C6BC24557E3B00AF4F31 /* Project_RefreshHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Project_RefreshHeader.m; path = JerryZBaseProject/Project/Project_ProgressHUD/Project_RefreshHeader.m; sourceTree = SOURCE_ROOT; };
 		4F80199724528EDF007FAF25 /* WKWebView+ShowBigImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView+ShowBigImage.h"; sourceTree = "<group>"; };
 		4F80199824528EDF007FAF25 /* WKWebView+ShowBigImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+ShowBigImage.m"; sourceTree = "<group>"; };
 		4F80199B2452905C007FAF25 /* ZLPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoBrowser.h; sourceTree = "<group>"; };
@@ -515,6 +518,8 @@
 		3150F72E245484870054A0D1 /* Project_Refresh */ = {
 			isa = PBXGroup;
 			children = (
+				4F58C6BB24557E3B00AF4F31 /* Project_RefreshHeader.h */,
+				4F58C6BC24557E3B00AF4F31 /* Project_RefreshHeader.m */,
 			);
 			path = Project_Refresh;
 			sourceTree = "<group>";
@@ -1303,6 +1308,7 @@
 				4F801AE224529061007FAF25 /* AFSecurityPolicy.m in Sources */,
 				4F801B1F24529061007FAF25 /* NSImage+WebCache.m in Sources */,
 				4F801B0C24529061007FAF25 /* TAAbstractDotView.m in Sources */,
+				4F58C6BD24557E3B00AF4F31 /* Project_RefreshHeader.m in Sources */,
 				4F801B0424529061007FAF25 /* MJRefreshAutoFooter.m in Sources */,
 				4F801AFE24529061007FAF25 /* MJRefreshNormalHeader.m in Sources */,
 				4F1A0BA024517E8400341F81 /* NSObject+Swizzling.m in Sources */,
