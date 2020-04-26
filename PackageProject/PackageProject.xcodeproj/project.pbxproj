@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3150F72C2454844C0054A0D1 /* Project_Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3150F72B2454844C0054A0D1 /* Project_Singleton.m */; };
+		3181301B2455D20100F6CF9C /* Project_TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3181301A2455D20100F6CF9C /* Project_TabBar.m */; };
+		3181301E2455D2B700F6CF9C /* Project_RefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3181301D2455D2B700F6CF9C /* Project_RefreshFooter.m */; };
 		4F1A0B5724517A9400341F81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A0B5624517A9400341F81 /* AppDelegate.m */; };
 		4F1A0B5A24517A9400341F81 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A0B5924517A9400341F81 /* SceneDelegate.m */; };
 		4F1A0B5D24517A9400341F81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A0B5C24517A9400341F81 /* ViewController.m */; };
@@ -181,6 +183,10 @@
 /* Begin PBXFileReference section */
 		3150F72A2454844C0054A0D1 /* Project_Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project_Singleton.h; sourceTree = "<group>"; };
 		3150F72B2454844C0054A0D1 /* Project_Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project_Singleton.m; sourceTree = "<group>"; };
+		318130192455D20100F6CF9C /* Project_TabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Project_TabBar.h; sourceTree = "<group>"; };
+		3181301A2455D20100F6CF9C /* Project_TabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project_TabBar.m; sourceTree = "<group>"; };
+		3181301C2455D2B700F6CF9C /* Project_RefreshFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Project_RefreshFooter.h; sourceTree = "<group>"; };
+		3181301D2455D2B700F6CF9C /* Project_RefreshFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project_RefreshFooter.m; sourceTree = "<group>"; };
 		4F1A0B5224517A9400341F81 /* PackageProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PackageProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1A0B5524517A9400341F81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F1A0B5624517A9400341F81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -520,8 +526,19 @@
 			children = (
 				4F58C6BB24557E3B00AF4F31 /* Project_RefreshHeader.h */,
 				4F58C6BC24557E3B00AF4F31 /* Project_RefreshHeader.m */,
+				3181301C2455D2B700F6CF9C /* Project_RefreshFooter.h */,
+				3181301D2455D2B700F6CF9C /* Project_RefreshFooter.m */,
 			);
 			path = Project_Refresh;
+			sourceTree = "<group>";
+		};
+		318130182455D1E300F6CF9C /* Project_TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				318130192455D20100F6CF9C /* Project_TabBar.h */,
+				3181301A2455D20100F6CF9C /* Project_TabBar.m */,
+			);
+			path = Project_TabBar;
 			sourceTree = "<group>";
 		};
 		4F1A0B4924517A9400341F81 = {
@@ -626,6 +643,7 @@
 		4F1A0B9424517CD700341F81 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				318130182455D1E300F6CF9C /* Project_TabBar */,
 				3150F72E245484870054A0D1 /* Project_Refresh */,
 				3150F726245484040054A0D1 /* Project_Singleton */,
 				4F801B33245291B5007FAF25 /* Project_ProgressHUD */,
@@ -1295,6 +1313,7 @@
 				4F801ADD24529061007FAF25 /* AFURLResponseSerialization.m in Sources */,
 				4F801B1324529061007FAF25 /* SDWebImageCodersManager.m in Sources */,
 				4F801B2724529061007FAF25 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				3181301B2455D20100F6CF9C /* Project_TabBar.m in Sources */,
 				4F1A0B5724517A9400341F81 /* AppDelegate.m in Sources */,
 				4F801AEB24529061007FAF25 /* MJPropertyKey.m in Sources */,
 				4F801B1A24529061007FAF25 /* SDWebImageCoder.m in Sources */,
@@ -1370,6 +1389,7 @@
 				4F801AE724529061007FAF25 /* MJExtensionConst.m in Sources */,
 				4F801B2E24529061007FAF25 /* MASConstraint.m in Sources */,
 				4F801B2224529061007FAF25 /* UIView+WebCacheOperation.m in Sources */,
+				3181301E2455D2B700F6CF9C /* Project_RefreshFooter.m in Sources */,
 				4F801AE024529061007FAF25 /* AFURLRequestSerialization.m in Sources */,
 				4F801ABA24529061007FAF25 /* MWTapDetectingView.m in Sources */,
 				4F801AE824529061007FAF25 /* NSObject+MJProperty.m in Sources */,
