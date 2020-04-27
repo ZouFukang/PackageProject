@@ -11,6 +11,7 @@
 		3181301B2455D20100F6CF9C /* Project_TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3181301A2455D20100F6CF9C /* Project_TabBar.m */; };
 		3181301E2455D2B700F6CF9C /* Project_RefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3181301D2455D2B700F6CF9C /* Project_RefreshFooter.m */; };
 		318130242455DA1100F6CF9C /* Project_RefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 318130222455DA1100F6CF9C /* Project_RefreshHeader.m */; };
+		3181302824570FCF00F6CF9C /* Project_TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3181302724570FCF00F6CF9C /* Project_TabBarController.m */; };
 		4F1A0B5724517A9400341F81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A0B5624517A9400341F81 /* AppDelegate.m */; };
 		4F1A0B5A24517A9400341F81 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A0B5924517A9400341F81 /* SceneDelegate.m */; };
 		4F1A0B5D24517A9400341F81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A0B5C24517A9400341F81 /* ViewController.m */; };
@@ -189,6 +190,8 @@
 		3181301D2455D2B700F6CF9C /* Project_RefreshFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project_RefreshFooter.m; sourceTree = "<group>"; };
 		318130222455DA1100F6CF9C /* Project_RefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project_RefreshHeader.m; sourceTree = "<group>"; };
 		318130232455DA1100F6CF9C /* Project_RefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project_RefreshHeader.h; sourceTree = "<group>"; };
+		3181302624570FCF00F6CF9C /* Project_TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Project_TabBarController.h; sourceTree = "<group>"; };
+		3181302724570FCF00F6CF9C /* Project_TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project_TabBarController.m; sourceTree = "<group>"; };
 		4F1A0B5224517A9400341F81 /* PackageProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PackageProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1A0B5524517A9400341F81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F1A0B5624517A9400341F81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -541,6 +544,22 @@
 			path = Project_TabBar;
 			sourceTree = "<group>";
 		};
+		3181302524570F9A00F6CF9C /* Project_TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				3181302624570FCF00F6CF9C /* Project_TabBarController.h */,
+				3181302724570FCF00F6CF9C /* Project_TabBarController.m */,
+			);
+			path = Project_TabBarController;
+			sourceTree = "<group>";
+		};
+		3181302A2457184600F6CF9C /* UITableView+Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UITableView+Category";
+			sourceTree = "<group>";
+		};
 		4F1A0B4924517A9400341F81 = {
 			isa = PBXGroup;
 			children = (
@@ -614,6 +633,7 @@
 		4F1A0B8B24517CD700341F81 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				3181302A2457184600F6CF9C /* UITableView+Category */,
 				4F80199624528E48007FAF25 /* WKWebView+Category */,
 				4F1A0B9D24517E3500341F81 /* NSObject+Category */,
 				4F1A0B8C24517CD700341F81 /* UINavigationController+Category */,
@@ -643,6 +663,7 @@
 		4F1A0B9424517CD700341F81 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				3181302524570F9A00F6CF9C /* Project_TabBarController */,
 				318130182455D1E300F6CF9C /* Project_TabBar */,
 				3150F72E245484870054A0D1 /* Project_Refresh */,
 				3150F726245484040054A0D1 /* Project_Singleton */,
@@ -1377,6 +1398,7 @@
 				4F801AB124529061007FAF25 /* DACircularProgressView.m in Sources */,
 				4F801AF124529061007FAF25 /* CWLateralSlideConfiguration.m in Sources */,
 				4F801B0124529061007FAF25 /* MJRefreshFooter.m in Sources */,
+				3181302824570FCF00F6CF9C /* Project_TabBarController.m in Sources */,
 				4F801ABD24529061007FAF25 /* ZLPhotoBrowserCell.m in Sources */,
 				4F801B1124529061007FAF25 /* UIImageView+HighlightedWebCache.m in Sources */,
 				4F801AF224529061007FAF25 /* UIScrollView+MJRefresh.m in Sources */,
